@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/core/sdk:3.0-buster
+FROM mcr.microsoft.com/dotnet/core/sdk:3.0
 
 # make Apt non-interactive
 RUN echo 'APT::Get::Assume-Yes "true";' > /etc/apt/apt.conf.d/90circleci \
